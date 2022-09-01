@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel LOGGING PAGE</title>
+    <link rel="stylesheet" href="/static/css/project1.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:ital,wght@1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">WULK</h2>
+            <div class="toggle "></div>
+
+        </header>
+        <video src="https://player.vimeo.com/external/201243460.sd.mp4?s=c426b453947eb3da67d047d0d7e6c6c324875e94&profile_id=164&oauth2_token_id=57447761" width="100%"  muted loop autoplay></video>
+    
+        
+    
+        <div class=" overlay"></div>
+        <div class="text">
+            <h2>FLIGHT FARE PREDICTION</h2>
+            <h3></h3>
+            <p></p>
+            <a href="/home">Predict</a>
+
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+    </section>
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/home">Flight Fare Prediction</a></li>
+            <li><a href="/contact">Contact</a></li>
+
+        </ul>
+    </div>
+
+    <script>
+        const showcase = document.querySelector('.showcase');
+        const menuToggle = document.querySelector('.toggle');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+</body>
+
+</html>
